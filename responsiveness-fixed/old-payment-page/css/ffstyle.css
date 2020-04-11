@@ -1,0 +1,94 @@
+.formgroup{
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.formcontainer{
+  float: left;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.buttontype1 {
+  background-color: #F8B400;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.donbuttons1{
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.donbuttons2{
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 76px;
+}
+.donbuttons3{
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+}
+.donbuttons4{
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 90px;
+}
+
+.buttoncontainer{
+  margin: 15px;
+  float: right;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.foodbox{
+  background-color: #2C786C;
+  margin: 15px;
+  float: left;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #C0C0C0;
+  text-align: left;
+}
+.column {
+  float: left;
+  width: 45%;
+  padding: 15px;
+}
+.column2 {
+  float: left;
+  width: 17%;
+  padding: 15px;
+}
+.funddonation{
+  padding-left: 85px; 
+}
+.container{
+	margin: 50px;
+	padding-left: 300px;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/ffstyle.css">
+<link rel="stylesheet" type="text/css" href="css/menubar.css">
+<title>Fund Donation</title>
+</head>
+
+<body>
+	<nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <img src="images/funddonation-logo.png" class="logo">
+        <ul>
+            <li><a href="#">Get Help</a></li>
+            <li><a href="#">Get Involed</a></li>
+            <li><a href="#">Relief Provider</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#" class="donate">Donate</a></li>
+         </ul>
+    </nav>
+<div class="container">
+	<div class="row">
+	<div class="formcontainer column">
+		<b> Your Details</b>
+			<form>
+				<div class="formgroup">
+				
+					<select id="title" name="title" placeholder="title">
+						<option value="" disabled selected>Title</option>
+						<option value="Mr">Mr</option>
+						<option value="Mrs">Mrs</option>
+						<option value="Miss">Miss</option>
+					</select>
+					<input type="text" id="firstname" placeholder="First name" value="" size="30">
+					<input type="text" id="lastname" placeholder="Last name" value="" size="30">
+				</div>	
+				<div class="formgroup">
+					<input type="checkbox" id="fororganisaton" name="orgainisation" value="" >
+					<label for="fororganisaton">Are you donating on behalf of your organisation?</label>
+				</div>
+				<div class="formgroup">
+					<input type="text" id="organisation" placeholder="Organisation" value="" size="73">
+				</div>
+				<div class="formgroup">
+					<input type="text" id="email" placeholder="Email address" value="" size="73">
+				</div>
+				<div class="formgroup">
+					<input type="checkbox" id="fornewsleter" name="newsletter" value="fornewsletter">
+					<label for="fororganisaton">I'd like to recieve the monthly newsletter from Whittlesea Community Connections</label><br>
+				</div>
+				<b>Billing Details</b>
+				<div class="formgroup">
+					<input type="text" id="streetaddress" placeholder="Street Address" value="" size="73">
+				</div>
+				<div class="formgroup">
+					<input type="text" id="streetaddress2" placeholder="Street Address 2" value="" size="73">
+				</div>
+				<div class="formgroup">
+					<input type="text" id="city" placeholder="City" value="" size="34">
+					<input type="text" id="state/provice" placeholder="State/Province" value="" size="34">
+				</div>
+				<div class="formgroup">		
+					<input type="text" id="postal/zipcode" placeholder="Postal/Zipcode" value="" size="15">
+					<select id="title" name="title" placeholder="title">
+						<option value="" disabled selected>Select Country</option>
+						<option value="Mr">Australia</option>
+						<option value="Mrs">New Zealand</option>
+					</select>
+				</div>
+				<div class="formgroup">
+					<input type="image" src="images/mastercard.png" alt="Submit" width="75" height="50">
+					<input type="image" src="images/visa.gif" alt="Submit" width="75" height="50">
+				</div>	
+				<div class="formgroup">
+					<input type="text" id="cardholdername" placeholder="Cardholder's name" value="" size="34">
+				</div>
+				<div class="formgroup">
+					<input type="text" id="cardnumber" placeholder="Card Number" value="" size="34">
+				</div>
+				<div class="formgroup">	
+					<input type="text" id="month/year" placeholder="MM/YY" value="" maxlength="4" size="10">
+					<input type="text" id="cvc" placeholder="CVC" value="" maxlength="3" size="10">
+					<br>
+					<p>128 bit secured</p>
+					<button class="buttontype1">Donate Now</button>
+				</div>
+		</div>
+	</div>
+	<div class="buttoncontainer column">
+		<b class="funddonation"> Make a donation</b>
+			<div class="donbuttons1">
+				<button class="buttontype1">Donate Once</button>
+				<button class="buttontype1">Donate Monthly</button>
+			</div>
+			<div class="donbuttons2">
+				<button class="buttontype1">$10</button>
+				<button class="buttontype1">$20</button>
+			</div>
+			<div class="donbuttons2">
+				<button class="buttontype1">$50</button>
+				<button class="buttontype1">$100</button>
+			</div>
+			<div class="donbuttons3">
+				<button class="buttontype1">AUD$ Enter Amount</button>
+			</div>
+	</div>
+	<div class="foodbox column2">
+		<b> To learn more about Food Donation Click below</b>
+			<div class="donbuttons4">
+				<button class="buttontype1">Food Donation</button>
+			</div>
+	</div>
+	<div class="footer">
+		<p>Whittlesea Community Connections</p>
+	</div>
+	</div>
+</div>	
+</body>
+	
+</html>
