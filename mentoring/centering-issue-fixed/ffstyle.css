@@ -1,0 +1,255 @@
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #C0C0C0;
+  text-align: left;
+}
+.container{
+  display: flex;
+  background-color: #fff;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.main-content {
+  min-width: 550px;
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+.mini-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.second-a {
+  flex: 1;
+}
+.second-b {
+  flex: 1;
+  display: flex;
+}
+.food-donation-box {
+  margin: auto;
+  width: 350px;
+  height: 300px;
+  background-color: #2C786C;
+  display: flex;
+  flex-direction: column;
+}
+.custom-button {
+  background: #FE9A2E;
+  border-radius: 10px;
+  border-style: none;
+  width: 150px;
+  height: 40px;
+  color: #ffff;
+  line-height: 40px;
+  text-align: center;
+  
+  font-size: 16px;
+  cursor: pointer;
+}
+.custom-button-2 {
+  width: 200px;
+  height: 40px;
+  background-color: #FE9A2E;
+  color: #ffff;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 12px;
+  font-size: 16px;
+  border-style: none;
+  cursor: pointer;
+}
+.custom-button-3 {
+  width: 70px;
+  height: 40px;
+  background-color: #FE9A2E;
+  color: #ffff;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 12px;
+  font-size: 16px;
+  border-style: none;
+  cursor: pointer;
+}
+.center-button {
+  margin: auto;
+}
+.center-message {
+  margin: auto;
+  color: #ffff;
+  padding: 10px;
+}
+.fund-donation-box {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+.box-1 {
+  margin: auto;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+}
+.box-1 p {
+  font-size: 20px;
+  color: #F8B400;
+}
+.box-2 {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.box-3 {
+  margin: auto;
+}
+.box-2-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.box-2-child button {
+  margin-bottom: 10px;
+}
+
+.form-box {
+  background-color: #ffff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    justify-content: space-evenly;
+}
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.row-1 {
+  flex-basis: 10%;
+  /* flex: 1; */
+}
+.row-2 {
+  flex-basis: 40%;
+  /* flex: 3; */
+}
+.row-3 {
+  flex-basis: 40%;
+  /* flex: 3; */
+}
+input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  height: 30px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  padding: 10px;
+}
+.custom-select {
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+}
+
+.row-2-2 {
+  flex-basis: 47%;
+  /* flex: 3; */
+}
+.row-3-2 {
+  flex-basis: 47%;
+  /* flex: 3; */
+}
+.form-row-2 {
+  display: flex;
+}
+.row-one {
+  flex-basis: 20%;
+}
+.row-two {
+  flex-basis: 20%;
+}
+.row-three {
+  flex-basis: 20%;
+}
+.row-four {
+  flex-basis: 20%;
+}
+
+.fixed {
+  min-width: 70px;
+}
+.bgimage{
+    position: fixed;
+	position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+	display: block;
+    position: absolute;
+}
+.buttontype2 {
+  background-color: #F8B400;
+  border: none;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 14px 12px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.formcont{
+	float: right;
+    min-height: 100vh;
+    background: #fff;
+    border-radius: 2px;
+    position: relative;
+	justify-content: center;
+}
+.logsign{
+	font-family: calibri;
+}
+.formgroup2{
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.column{
+	width: 50%;
+	flex: 50%;
+	justify-content: center;
+}
+.formcont2{
+	float: right;
+	min-height: 100vh;
+  background: #fff;
+  border-radius: 2px;
+  position: relative;
+    display: flex;
+}
+.center-me {
+    margin: auto;
+}
